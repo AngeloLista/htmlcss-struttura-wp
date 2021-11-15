@@ -11,12 +11,17 @@
 }
 
 
-
 .container {
     margin: 30px auto;
     width: 70%;
 }
 
+.float_left {
+    float: left;
+}
+
+
+/* Main */
 header {
     height: 170px;
     background-color: violet;
@@ -29,16 +34,11 @@ header {
     margin-bottom: 30px;
 }
 
-footer {
-    height: 50px;
-    background-color: #8701ff;
-}
-
-
+/* Content Main */
 #container_main {
-    height: 550px;
     background-color: #0186ff;
     margin-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .mini_header {
@@ -61,6 +61,8 @@ footer {
     margin-right: 30px;
 }
 
-.float_left {
-    float: left;
+
+footer {
+    height: 50px;
+    background-color: #8701ff;
 }
